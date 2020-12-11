@@ -7,10 +7,10 @@ public class ClientApp {
 	
 	public static void main(String[] args) {
 		
-		List<Integer> ints = Arrays.asList(4,4,4);
+		List<Integer> list = Arrays.asList(4,4,4);
 
-		DataClient dataClient = new DataClient(ints);
+		DataClient data = new DataClient(list);
 
-		dataClient.getData("localhost", 8888);
+		data.getData("localhost", 8888);
 	}
 }
